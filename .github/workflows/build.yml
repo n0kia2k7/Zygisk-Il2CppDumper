@@ -5,7 +5,8 @@ on:
         package_name:
           description: "Package name of the game:"
           required: true
-
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 jobs:
   build:
     runs-on: ubuntu-latest
